@@ -5,10 +5,4 @@
     <TargetFramework>net47</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="pnpdll">
-     <HintPath>pnpdll.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
