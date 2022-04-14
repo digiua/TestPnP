@@ -7,3 +7,4 @@ O siguenos en nuestra cuenta de twitter @desarrollospnp
 
 Contactanos via Whatsapp: https://wa.me/582122859960
 
+Si compilas en 32 bots, utiliza el pnpdll.dll
