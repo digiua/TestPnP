@@ -1,0 +1,19 @@
+
+    Secuencia de comandos minimos para generar una factura en impresoras fiscales PNP
+
+PFabrepuerto("1"); // Abrir el puerto COM1
+
+PFabrefiscal(cliente, rif); //Abrir la factura
+
+PFrenglon(descripcion, EpsonPF300.devolverCatidadEnString(cantidad, 3), EpsonPF300.devolverCatidadEnString(Decimal.Round(precio, 2), 2), this.devolverTasa(tasa));
+//Se envia rengon: Con cantidad 2 decimales fijos sin punto, precio 2 decimales fijos sin punto, tasa dos decimales fijos sin punto.
+
+PFComando('E|B|10000'); // Comnado de cierre parcial con 100Bs pagados en divisa para el IGTF
+
+PFTfiscal("Textos libres con numero de factura, dirección, telf. y vuelto
+    Aqui tambien puedes agregar como pago, vuelto o lo que necesites.
+    y finalmente envía"); 
+
+PFtotal(); // Cierra la factura.
+
+Todos los comandos deben respoder OK, si es diferente de OK se debe invocar PFultimo y en la respuesta se presenta el error.
