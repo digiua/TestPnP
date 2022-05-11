@@ -1,0 +1,11 @@
+Ejemplo de declaracion de funciones en Power Builder
+
+Function String PFabrefiscal( String Razon, String Rif) LIBRARY "pnpdll.dll" alias for "PFabrefiscal;Ansi"
+Function String PFtotal() LIBRARY "pnpdll.dll" alias for "PFtotal;Ansi"
+Function String PFrepz() LIBRARY "pnpdll.dll" alias for "PFrepz;Ansi"
+Function String PFrepx() LIBRARY "pnpdll.dll" alias for "PFrepx;Ansi"
+Function String PFrenglon(String Descripcion,String Cantidad,String Monto,String Iva) LIBRARY "pnpdll.dll" alias for "PFrenglon;Ansi"
+Function String PFabrepuerto(String Numero) LIBRARY "pnpdll.dll" alias for "PFabrepuerto;Ansi"
+Function String PFcierrapuerto() LIBRARY "pnpdll.dll" alias for "PFcierrapuerto;Ansi"
+Function String PFDevolucion(String Razon,String Rif,String Comp,String Maqui,String Fecha,String Hora) LIBRARY "pnpdll.dll" alias for "PFDevolucion;Ansi"
+Function String PFComando( String Comando) LIBRARY "pnpdll.dll" alias for "PFComando;Ansi"
