@@ -1,0 +1,6 @@
+Notas para delphi
+
+Nota: para versiones superiores a Delphi 7, pchar es asumido como Pwchar, por lo que se debe cambiar todas las apariciones de pchar por pAnsiChar para que funcione correctamente.
+
+Ejemplo:
+function PFTipoImp(edtext:pAnsiChar):pAnsiChar; stdcall external 'pnpdll.dll'
