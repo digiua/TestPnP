@@ -10,8 +10,9 @@ Donde 172.26.127.167 es el IP de la impresora que puede ser fijado por el router
 Ejemplo para abrir generar una factura:
     http://172.26.127.167/Q?{   //abre gaveta
     http://172.26.127.167/Q?@:nombre:rif:::::M:   // abre factura
-    http://172.26.127.167/Q?N:Kilo de papa:1500:750:1600:M   // emite renglon
-    http://172.26.127.167/Q?E:U:1000   //cierra factura con IGTV de 10 bs en divisa
+    http://172.26.127.167/Q?B:Kilo de papa:1500:750:1600:M   // emite renglon
+    http://172.26.127.167/Q?A:Texto fiscal   // Texto Fiscal
+    http://172.26.127.167/Q?E:U:1000   //cierra factura con IGTV de 10 bs pagados en divisa
 
 Tambien puede enviarse multiples comandos separados por pipe (|)
 
