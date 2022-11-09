@@ -1,6 +1,6 @@
 # TestPrinterPnP
 
-Ejemplo de codigo para generar factura fiscal en equipos PnP en C#
+Ejemplo de codigo para generar factura fiscal en equipos PnP en C# y otros lenguajes
 Para información adicional: https://desarrollospnp.com/pregunta
 
 O siguenos en nuestra cuenta de twitter @desarrollospnp
