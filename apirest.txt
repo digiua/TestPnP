@@ -16,5 +16,5 @@ Ejemplo para abrir generar una factura:
 
 Tambien puede enviarse multiples comandos separados por pipe (|)
 
-http://172.26.127.167/Q?{|@:nombre:rif:::::M:|N:producto:1000:1000:1600:M|E:U:5000
+http://172.26.127.167/Q?{|@:nombre:rif:::::M:|B:producto:1000:1000:1600:M|E:U:5000
 
